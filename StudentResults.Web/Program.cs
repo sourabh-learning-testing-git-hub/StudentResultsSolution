@@ -20,6 +20,7 @@ if (!app.Environment.IsDevelopment())
 }
 //Console.WriteLine("Hello from dev");
 //Console.WriteLine("Hello from dev");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
