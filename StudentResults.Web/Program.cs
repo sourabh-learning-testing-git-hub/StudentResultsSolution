@@ -19,6 +19,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 //Console.WriteLine("Hello from dev");
+//Console.WriteLine("Hello from dev");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
