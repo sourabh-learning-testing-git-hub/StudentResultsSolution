@@ -21,6 +21,7 @@ if (!app.Environment.IsDevelopment())
 //Console.WriteLine("Hello from dev");
 //Console.WriteLine("Hello from dev");
 // third comment push
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
